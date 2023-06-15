@@ -1,3 +1,21 @@
+p{
+	margin: 0px 0px 10px 0px;
+}
+
+.textFieldHolder{
+	margin-right: 100px;
+}
+
+#plyInput{
+	float: left;
+	width: 100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other webkit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+	-ms-box-sizing: border-box; /* Old IE */
+	-khtml-box-sizing: border-box; /* konqueror */
+}
+
 #userInput{
 	position:absolute;
 	bottom:10px;
@@ -12,12 +30,4 @@
 	overflow-y: scroll;
 	padding: 5px;
 	font-size: 15pt;
-}
-
-p{
-	margin: 0px 0px 10px 0px;
-}
-
-.textFieldHolder{
-	margin-right: 100px;
 }

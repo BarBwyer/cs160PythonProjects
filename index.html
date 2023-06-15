@@ -65,5 +65,7 @@
 			compChoice = "scissors";
 		}
 		document.getElementById("firstParagraph").innerHTML = document.getElementById("firstParagraph").innerHTML+"<p>" + thinker (plyChoice, compChoice);
+		var scrollDiv = document.getElementById('firstParagraph');
+		scrollDiv.scrollTop = scrollDiv.scrollHeight;
 	}
 </script>
